@@ -101,21 +101,6 @@ from models import UserTransactionRecord
 
 
 class UserExamPostSelectedData(APIView):
-	"""	Request for SSCUserTimeTable.
-	URL = api/1/add-exams/
-
-	Available methods: `POST`
-
-	Authentication Required: `No`
-
-	Post data: exam_ids """
-
-	# authentication_classes = (
-	# 	authentication.TokenAuthentication,
-	# 	authentication.SessionAuthentication
-	# )
-
-	# permission_classes = [permissions.IsAuthenticated]
 
 
 	def post(self, request, version, format=None):
