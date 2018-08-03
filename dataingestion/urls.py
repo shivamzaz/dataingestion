@@ -22,6 +22,6 @@ from api import views as api_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-	url(r'^api/(?P<version>[1])/exams/', api_views.UserExamPostSelectedData.as_view(), name='api.user_exam_post_selected_data'),
-    
+	url(r'^api/(?P<version>[1])/send-data-ingestion/', api_views.UserExamPostSelectedData.as_view(), name='api.user_exam_post_selected_data'),
+
 ]
